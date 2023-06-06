@@ -41,18 +41,18 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCZeC6JH5Qn8TPjejKjLDiNn7n1tQYBfYQ',
-    appId: '1:624579416854:android:d1c963d4fd352185853637',
+    apiKey: <ApiKey>,
+    appId: <appId>,
     projectId: 'playground-48085',
     messagingSenderId: '624579416854',
     storageBucket: 'playground-48085.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD-ZyGx1Z_1p1HTuRlOC6M8whrXH3FoE4k',
-    appId: '1:52648062162:ios:298828b461705b15b5910b',
+    apiKey:  <ApiKey>,
+    appId: <appId>,
     projectId: 'br-apps-customers',
-    messagingSenderId: '52648062162',
+    messagingSenderId: <senderId>,
     storageBucket: 'https://br-apps-customers.firebaseio.com',
     iosBundleId: 'br.com.dia.clubdia.homolog',
   );
